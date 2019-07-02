@@ -1,22 +1,22 @@
 channels:
   - conda-forge
 dependencies:
-  - python=3
-  - bokeh=1.1.0
-  - dask=2.0.0
-  - dask-image=0.2.0
-  - dask-ml=1.0.0
-  - nodejs=8.9
-  - notebook<5.7.5
-  - tornado=5
+  - python = 3
+  - bokeh = 1.1.0
+  - dask = 2.0.0
+  - dask-image = 0.2.0
+  - dask-ml = 1.0.0
+  - nodejs = 8.9
+  - notebook < 5.7.5
+  - tornado = 5
   - numba
   - numpy
   - pip
   - pandas
-  - pyarrow==0.12.0
+  - pyarrow == 0.12.0
   - python-graphviz
   - seaborn
-  - scikit-learn=0.20
+  - scikit-learn = 0.20
   - matplotlib
   - nbserverproxy
   - nomkl
@@ -25,8 +25,12 @@ dependencies:
   - bottleneck
   - requests
   - py-xgboost
+  - boto3
+  - botocore
+  - s3fs
+  - s3transfer
   - pip:
     - dask_xgboost
     - mimesis
-    - jupyterlab==1.0.0rc0
-    - dask-labextension==0.4.0a1
+    - jupyterlab == 1.0.0rc0
+    - dask-labextension == 0.4.0a1
